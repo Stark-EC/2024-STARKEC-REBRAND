@@ -1,0 +1,373 @@
+#onetrust-consent-sdk #onetrust-banner-sdk {
+  width: calc(100% - 30px) !important;
+  border-radius: 0;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.10), 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.onetrust-pc-dark-filter {
+  opacity: 0.8500000238418579;
+  background: #FFF;
+}
+
+#onetrust-consent-sdk #onetrust-policy-title {
+  color: #0C1724;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  padding: 0 0 20px 0;
+  width: 100%
+}
+
+#onetrust-consent-sdk #onetrust-policy-text {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}
+
+#onetrust-consent-sdk #onetrust-policy-text .banner-policy-link {
+  color: #0064DA !important;
+  text-decoration: underline;
+}
+
+#onetrust-pc-sdk .ot-desc-cntr {
+  margin-top: 0;
+}
+
+#onetrust-pc-sdk .ot-always-active {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  color: #656C76;
+}
+
+@media (min-width: 768px) {
+  #onetrust-pc-sdk .ot-desc-cntr .ot-grp-hdr1 {
+    padding-top: 0;
+  }
+}
+
+#onetrust-banner-sdk #onetrust-button-group {
+  margin-top: 18px;
+  justify-content: flex-start;
+}
+
+#onetrust-pc-sdk .ot-desc-cntr:active {
+  outline: none;
+}
+
+#onetrust-banner-sdk #onetrust-policy {
+  margin: 0 !important;
+}
+
+#onetrust-banner-sdk .ot-sdk-container {
+  padding: 40px 34px 40px 40px;
+}
+
+#onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent {
+  transform: translateY(0);
+  margin-left: 0;
+}
+
+#onetrust-banner-sdk button, #onetrust-pc-sdk button, #ot-sdk-cookie-policy button, .ot-pc-footer .ot-btn-container button {
+  margin-bottom: 0;
+  padding: 12px 22px 13px 22px !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 100% !important;
+  letter-spacing: 0.2px !important;
+  border-radius: 24px !important;
+  color: #0C1724 !important;
+}
+
+#onetrust-consent-sdk #onetrust-pc-btn-handler:hover, #onetrust-consent-sdk #onetrust-reject-all-handler:hover, #onetrust-banner-sdk #onetrust-accept-btn-handler:hover {
+  background-color: #0C1724 !important;
+  color: #fff !important;
+  opacity: 1;
+}
+
+#onetrust-pc-sdk .ot-pc-header {
+  border: 0;
+}
+
+#onetrust-pc-sdk .ot-close-cntr {
+  display: none;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk h3 {
+  border-left: 4px solid transparent;
+  padding-left: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 110%;
+  color: #656C76;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-active-menu h3 {
+  border-color: #CE0070;
+  color: #0C1724;
+}
+
+#onetrust-pc-sdk .category-menu-switch-handler {
+  border-width: 0 !important;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+}
+
+#onetrust-pc-sdk .category-menu-switch-handler,
+#onetrust-pc-sdk .ot-pc-footer {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk *:focus, #onetrust-consent-sdk #onetrust-pc-sdk .ot-vlst-cntr > a:focus {
+  outline: none;
+}
+
+#onetrust-pc-sdk {
+  width: 100%;
+  max-width: 920px;
+}
+
+#onetrust-pc-sdk .ot-pc-footer-logo {
+  display: none;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk {
+  padding: 40px;
+  height: max-content;
+  display: table;
+}
+
+#onetrust-pc-sdk .ot-always-active-group .ot-tgl-cntr {
+  max-width: 100%
+}
+
+#onetrust-pc-sdk .ot-tab-desc {
+  margin-left: 25px;
+}
+
+#onetrust-pc-sdk .ot-desc-cntr h4 {
+  color: #0C1724;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+#onetrust-pc-sdk .ot-grp-desc {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+#onetrust-pc-sdk .privacy-notice-link {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  #onetrust-pc-sdk #ot-pc-content {
+    height: auto !important;
+  }
+}
+
+#onetrust-pc-sdk .ot-pc-footer {
+  position: relative;
+}
+
+#onetrust-pc-sdk .ot-btn-subcntr {
+  float: none;
+}
+
+.ot-btn-container {
+  display: flex !important;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk button {
+  color: #0C1724 !important;
+  background-color: #fff !important;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk button:hover,
+#onetrust-consent-sdk #onetrust-pc-sdk button.save-preference-btn-handler {
+  color: #fff !important;
+  background-color: #0C1724 !important;
+  opacity: 1;
+}
+
+#onetrust-pc-sdk .ot-switch-nob:before {
+  background-color: #656C76;
+  top: 0;
+  outline: none !important;
+}
+
+#onetrust-pc-sdk .ot-switch-nob {
+  border: 1px solid #656c76;
+  background: #c4c4c4;
+  height: 20px;
+}
+
+#onetrust-pc-sdk .ot-switch {
+  width: 40px;
+  height: 20px;
+}
+
+#onetrust-pc-sdk .ot-tgl input:checked + .ot-switch .ot-switch-nob {
+  border-color: #CE0070;
+  background-color: transparent;
+}
+
+#onetrust-pc-sdk .ot-tgl input:checked + .ot-switch .ot-switch-nob:before {
+  background-color: #C2006B;
+  transform: translateX(18px);
+}
+
+@media (max-width: 767px) {
+  #onetrust-banner-sdk #onetrust-button-group {
+    flex-direction: column;
+  }
+
+  #onetrust-pc-sdk .ot-pc-header,
+  #onetrust-pc-sdk #ot-pc-title {
+    padding: 0;
+    width: 100%;
+  }
+
+  #onetrust-pc-sdk .ot-always-active {
+    font-size: 20px;
+  }
+
+  #onetrust-banner-sdk #onetrust-button-group-parent button,
+  #onetrust-banner-sdk #onetrust-button-group-parent .banner-actions-container {
+    width: 100% !important;
+    max-width: 100%;
+    min-width: 100% !important;
+    float: none !important;
+    margin: 8px 0 !important;
+  }
+
+  #onetrust-banner-sdk #onetrust-button-group-parent .banner-actions-container {
+    padding: 0;
+    margin: 0 !important;
+  }
+
+  #onetrust-banner-sdk #onetrust-button-group-parent {
+    width: 100%;
+    margin: 0 !important;
+  }
+  #onetrust-banner-sdk .ot-sdk-container {
+    padding: 15px 20px 12px 20px;
+  }
+
+  #onetrust-banner-sdk #onetrust-group-container,
+  #onetrust-consent-sdk #onetrust-policy-text {
+    width: 100%;
+  }
+
+  #onetrust-consent-sdk #onetrust-policy-text {
+    margin-bottom: 10px;
+  }
+
+  #ot-pc-content .ot-cat-grp {
+    max-height: 538px;
+  }
+
+  #onetrust-consent-sdk #onetrust-pc-sdk h3 {
+    border: 0;
+    padding: 0;
+    color: #0C1724;
+    font-size: 20px;
+  }
+
+  #onetrust-consent-sdk #onetrust-pc-sdk h3:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="%23363C44" stroke-width="2"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12.9124H17V10.9124H7V12.9124Z" fill="%23363C44"/><path fill-rule="evenodd" clip-rule="evenodd" d="M11 6.91235L11 16.9124L13 16.9124L13 6.91235L11 6.91235Z" fill="%23363C44"/></svg>');
+    content: '';
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    right: 0%;
+  }
+
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-active-menu h3:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="%23363C44" stroke-width="2"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12.9124H17V10.9124H7V12.9124Z" fill="%23363C44"/></svg>')
+  }
+
+  #onetrust-pc-sdk .ot-cat-grp li {
+    border-bottom: 1px solid #D5DCE5;
+    padding: 20px 0 22px 0;
+  }
+  #onetrust-pc-sdk .ot-cat-grp li:first-of-type {
+    border-top: 1px solid #D5DCE5;
+  }
+  #onetrust-consent-sdk #onetrust-pc-sdk .category-menu-switch-handler {
+    padding-left: 0;
+    position: relative;
+  }
+
+  #onetrust-consent-sdk #onetrust-pc-sdk {
+    height: calc(100% - 14px);
+    width: calc(100% - 16px);
+    padding: 15px 20px;
+  }
+
+  #onetrust-pc-sdk .ot-grp-hdr1,
+  #onetrust-pc-sdk .ot-cat-header + .ot-tgl {
+    float: none;
+    padding-left: 0;
+  }
+  #onetrust-pc-sdk .ot-desc-cntr {
+    width: 100%;
+    margin: 0;
+  }
+
+  #onetrust-pc-sdk .ot-grp-desc {
+    padding: 0 !important;
+  }
+
+  #onetrust-pc-sdk .ot-pc-footer .ot-btn-container {
+    width: 100% !important;
+    flex-direction: column;
+  }
+
+  #onetrust-consent-sdk #onetrust-pc-sdk button {
+    margin: 8px 0 !important;
+    width: 100% !important;
+  }
+
+  #onetrust-pc-sdk .ot-pc-footer .ot-pc-footer-logo {
+    display: block;
+    height: 20px;
+    margin-top: -2px;
+  }
+  #onetrust-pc-sdk .ot-pc-footer-logo a,
+  #onetrust-pc-sdk .ot-pc-footer-logo img {
+    height: 20px;
+    margin-top: 0;
+  }
+
+  #onetrust-pc-sdk .ot-grp-hdr1 .ot-cat-header {
+    display: none;
+  }
+
+  #onetrust-pc-sdk #ot-pc-content {
+    height: calc(100% - 250px) !important;
+  }
+
+  #onetrust-pc-sdk .ot-grp-desc {
+    font-size: 16px;
+  }
+  #onetrust-consent-sdk #onetrust-policy-text .banner-policy-link,
+  #onetrust-pc-sdk .privacy-notice-link {
+    text-decoration: none;
+  }
+
+}
